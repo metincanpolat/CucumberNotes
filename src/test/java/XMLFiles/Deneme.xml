@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--07.12.22-->
+<suite name="Suite">
+    <test name="test2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="StepDefinitions._01_LoginSteps"></class>
+        </classes>
+    </test>
+</suite>
